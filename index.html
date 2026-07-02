@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Happy Birthday Misba ❤️</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+overflow:hidden;
+background:linear-gradient(135deg,#ff4f8b,#ff8fc7,#ffd8e8);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.card{
+
+width:90%;
+max-width:430px;
+
+background:rgba(255,255,255,.18);
+
+backdrop-filter:blur(18px);
+
+padding:30px;
+
+border-radius:25px;
+
+text-align:center;
+
+box-shadow:0 10px 40px rgba(0,0,0,.25);
+
+color:white;
+
+animation:zoom 1s;
+
+}
+
+@keyframes zoom{
+
+0%{
+
+transform:scale(.5);
+
+opacity:0;
+
+}
+
+100%{
+
+transform:scale(1);
+
+opacity:1;
+
+}
+
+}
+
+h1{
+
+font-size:40px;
+
+margin-bottom:10px;
+
+}
+
+h2{
+
+font-size:28px;
+
+margin-bottom:20px;
+
+}
+
+button{
+
+padding:15px 35px;
+
+border:none;
+
+border-radius:40px;
+
+background:white;
+
+color:#ff2f6d;
+
+font-size:20px;
+
+font-weight:bold;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.1);
+
+}
+
+#letter{
+
+display:none;
+
+margin-top:25px;
+
+font-size:18px;
+
+line-height:1.8;
+
+}
+
+.heart{
+
+position:absolute;
+
+font-size:22px;
+
+animation:fly 8s linear infinite;
+
+}
+
+@keyframes fly{
+
+0%{
+
+transform:translateY(100vh);
+
+opacity:0;
+
+}
+
+100%{
+
+transform:translateY(-120px);
+
+opacity:1;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🎂 Happy Birthday 🎂</h1>
+
+<h2>My Princess Misba ❤️</h2>
+
+<p>
+Today is not just your birthday...
+It's the day the most beautiful person came into this world.
+</p>
+
+<br>
+
+<button onclick="openLetter()">
+
+💌 Open My Heart
+
+</button>
+
+<div id="letter">
+  <p>
+
+My Dearest <b>Misba</b> ❤️,
+
+<br><br>
+
+Happy Birthday to the most beautiful girl in my life.
+
+Every moment with you is a beautiful memory that I'll always cherish.
+
+Your smile makes my darkest days brighter, and your love gives me strength every single day.
+
+I pray that Allah blesses you with endless happiness, good health, success, and all the love your heart deserves.
+
+Thank you for coming into my life and making it so special.
+
+No matter where life takes us, you'll always have a special place in my heart.
+
+I promise to always respect you, support you, and pray for your happiness.
+
+❤️
+
+Happy Birthday once again, My Princess.
+
+I Love You Forever.
+
+❤️
+
+</p>
+
+</div>
+
+</div>
+
+<script>
+
+function openLetter(){
+
+document.getElementById("letter").style.display="block";
+
+for(let i=0;i<80;i++){
+
+let h=document.createElement("div");
+
+h.className="heart";
+
+h.innerHTML="💖";
+
+h.style.left=Math.random()*100+"vw";
+
+h.style.fontSize=(20+Math.random()*20)+"px";
+
+h.style.animationDuration=(5+Math.random()*5)+"s";
+
+document.body.appendChild(h);
+  
+
+}
+
+}
+
+https://cdn.pixabay.com/download/audio/2022/03/15/audio_3b4c9d2b6f.mp3?filename=romantic-piano-ambient-110397.mp3
